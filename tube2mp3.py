@@ -31,17 +31,11 @@ def clicked():
 	x2 = format_number(e2.get())
 	x3 = format_number(e3.get())
 	x4 = e4.get()
-	print(x1)
-	print(x2)
-	print(x3)
-	print(x4)
-
 
 	with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 	    result = ydl.extract_info(x1, download=False)
 	    video = result['entries'][0] if 'entries' in result else result
 	print(type(x4))
-
 
 	url = video['url']
 	path = "C:\\Users\\prettibon.WILLIE\\Documents\\div\\prosj\\tube2mp3"
