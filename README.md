@@ -1,7 +1,7 @@
 # tube2mp3
 Converting youtube snippet to mp3 file
 
-pip install youtube_dl
+pip install yt_dlp
 pip install moviepy
 pip install tk
 
