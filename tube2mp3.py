@@ -8,7 +8,7 @@ from tkinter import *
 import os
 from moviepy.editor import *
 
-PATH = "C:\\Users\\ato\\Documents\\tube2mp3-main\\videos"
+PATH = "C:\\"
 
 
 
